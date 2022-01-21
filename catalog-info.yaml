@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GoTest3
+  description: GoTest3
+  annotations: 
+    github.com/project-slug: hemantbhosale916/GoTest3
+    backstage.io/source-ref: "https://github.com/hemantbhosale916/GoTest3"
+    backstage.io/techdocs-ref: url:https://github.com/hemantbhosale916/GoTest3
+    backstage.io/github-actions-id: https://github.com/hemantbhosale916/GoTest3
+spec:
+  type: service
+  lifecycle: experimental
+  owner: hemantbhosale916
